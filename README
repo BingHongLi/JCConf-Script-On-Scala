@@ -1,0 +1,15 @@
+# JCConf Script On Scala
+
+## start-jupyter-scalas.sh
+用來運行jupyter-scalas 的 docker container
+使用image為 aliceyufeipeng/scala-script:2.11-jdk8
+內有 jupyter 與 scalas
+
+## stop-jupyter-scalas.sh
+關閉 jupyter-scalas 的container
+
+## start-amm.sh
+開啟一個互動式的 ammonite container
+使用image為 king4647/scala-amm:0.0.5
+內有 amm 1.0.2版 與 java8u111
+進入container後，鍵入amm，可進入REPL
